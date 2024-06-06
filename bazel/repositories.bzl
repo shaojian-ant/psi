@@ -176,7 +176,7 @@ def _com_github_eigenteam_eigen():
     maybe(
         http_archive,
         name = "com_github_eigenteam_eigen",
-        sha256 = "c1b115c153c27c02112a0ecbf1661494295d9dcff6427632113f2e4af9f3174d",
+        sha256 = "f0685caf33a862a2a462e1c612cf5a0cb8b858e56777aaf70c0e23d689a4574b",
         build_file = "@psi//bazel:eigen.BUILD",
         strip_prefix = "eigen-3.4",
         urls = [
